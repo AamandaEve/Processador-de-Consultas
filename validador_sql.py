@@ -329,7 +329,6 @@ class SGBDModernApp:
         self.tree.column("operador", width=150, anchor="w")
         self.tree.column("detalhe", width=600, anchor="w")
         
-        # Tags de cores adaptadas para Dark Mode (fundo sutil, texto claro)
         self.tree.tag_configure('ler', background='#172c1c', foreground='#a1e0b5')
         self.tree.tag_configure('filtro', background='#331d1d', foreground='#f0a1a1')
         self.tree.tag_configure('juncao', background='#332b16', foreground='#e6cd91')
